@@ -6,20 +6,22 @@ import {
   DollarSign,
   FileText,
   Heart,
-  HeartHandshake,
   MessageCircle,
   Users,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import placeholder from "../public/imagens/placeholder.jpg";
 import profissionalWorking from "../public/imagens/profissionalWorking.png";
+import InfoCard from "./components/Card";
+
 export default function Component() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section with Background */}
       <div className="relative h-[600px] flex items-center justify-center">
         <Image
-          src="/placeholder.svg"
+          src={placeholder}
           alt="Background"
           fill
           className="object-cover brightness-[0.85]"
@@ -69,86 +71,37 @@ export default function Component() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service cards (same as before) */}
-            <div className="bg-white rounded-lg p-8 shadow-lg">
-              <div className="flex justify-center mb-6">
-                <Users className="w-12 h-12" />
-              </div>
-              <h3 className="text-xl font-bold text-center mb-4">Divórcio</h3>
-              <ul className="space-y-2">
-                <li>• Consensual</li>
-                <li>• Litigioso</li>
-                <li>• Extrajudicial</li>
-              </ul>
-            </div>
+            <InfoCard
+              title="Divórcio"
+              icon={Users}
+              items={["Consensual", "Litigioso", "Extrajudicial"]}
+            />
+            <InfoCard
+              title="Pensão Alimentícia"
+              icon={DollarSign}
+              items={["Fixação", "Revisão", "Execução", "Exoneração"]}
+            />
+            <InfoCard
+              title="União Estável"
+              icon={Heart}
+              items={[
+                "Reconhecimento",
+                "Dissolução",
+                "Contrato de União Estável em Cartório",
+              ]}
+            />
 
-            <div className="bg-white rounded-lg p-8 shadow-lg">
-              <div className="flex justify-center mb-6">
-                <DollarSign className="w-12 h-12" />
-              </div>
-              <h3 className="text-xl font-bold text-center mb-4">
-                Pensão Alimentícia
-              </h3>
-              <ul className="space-y-2">
-                <li>• Fixação</li>
-                <li>• Revisão</li>
-                <li>• Execução</li>
-                <li>• Exoneração</li>
-              </ul>
-            </div>
+            <InfoCard
+              title="Guarda de Filhos e Alimentos"
+              icon={Baby}
+              items={["Unilateral", "Compartilhada", "Provisória"]}
+            />
 
-            <div className="bg-white rounded-lg p-8 shadow-lg">
-              <div className="flex justify-center mb-6">
-                <Heart className="w-12 h-12" />
-              </div>
-              <h3 className="text-xl font-bold text-center mb-4">
-                União Estável
-              </h3>
-              <ul className="space-y-2">
-                <li>• Reconhecimento</li>
-                <li>• Dissolução</li>
-                <li>• Contrato de União Estável em Cartório</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-lg p-8 shadow-lg">
-              <div className="flex justify-center mb-6">
-                <Baby className="w-12 h-12" />
-              </div>
-              <h3 className="text-xl font-bold text-center mb-4">
-                Guarda de Filhos e Alimentos
-              </h3>
-              <ul className="space-y-2">
-                <li>• Unilateral</li>
-                <li>• Compartilhada</li>
-                <li>• Provisória</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-lg p-8 shadow-lg">
-              <div className="flex justify-center mb-6">
-                <Clock className="w-12 h-12" />
-              </div>
-              <h3 className="text-xl font-bold text-center mb-4">
-                Regulamentação de Visitas
-              </h3>
-              <ul className="space-y-2">
-                <li>• Fixação</li>
-                <li>• Alteração</li>
-                <li>• Suspensão</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-lg p-8 shadow-lg">
-              <div className="flex justify-center mb-6">
-                <HeartHandshake className="w-12 h-12" />
-              </div>
-              <h3 className="text-xl font-bold text-center mb-4">Curatela</h3>
-              <ul className="space-y-2">
-                <li>• Interdição</li>
-                <li>• Tutela</li>
-                <li>• Administração de Bens</li>
-              </ul>
-            </div>
+            <InfoCard
+              title="Regulamentação de Visitas"
+              icon={Clock}
+              items={["Fixação", "Alteração", "Suspensão"]}
+            />
           </div>
         </div>
       </section>
