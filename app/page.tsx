@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import logo from "../public/imagens/logo.png";
 import placeholder from "../public/imagens/placeholder.jpg";
 import profissionalWorking from "../public/imagens/profissionalWorking.png";
 import InfoCard from "./components/Card";
@@ -28,11 +29,11 @@ export default function Component() {
           priority
         />
         <div className="absolute inset-0 bg-black/30" />
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
           <div className="mb-8">
             <div className="inline-block bg-black p-4 mb-4">
               <Image
-                src="/placeholder.svg"
+                src={logo}
                 alt="Logo"
                 width={50}
                 height={50}
@@ -44,15 +45,15 @@ export default function Component() {
             </h1>
             <p className="text-white/90 text-sm">Psicóloga</p>
           </div>
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Precisando de advogada para divórcio, pensão alimentícia ou outra
-            causa do direito de família?
+          <h2 className="text-2xl md:text-4xl font-bold text-white mb-6">
+            Minha abordagem psicanalítica foca no inconsciente e na importância
+            do autoconhecimento para a transformação pessoal.
           </h2>
           <p className="text-white/90 mb-8">
             Entre em contato clicando no botão abaixo.
           </p>
           <Link
-            href="https://wa.me/YOUR_PHONE_NUMBER"
+            href="https://wa.me/48988646542"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full transition-colors"
           >
             <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
@@ -176,11 +177,12 @@ export default function Component() {
               className="rounded-lg"
             />
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">Dra. Sumaia Rohden Speck</h3>
+              <h3 className="text-xl font-bold">Miria Julia Ramos</h3>
               <p className="text-gray-600">
-                Advogada especializada em Direito de Família, atuo há mais de X
-                anos na área, sempre buscando as melhores soluções para meus
-                clientes.
+                Psicóloga graduada pela Universidade Estácio de Santa Catarina.
+                Resido em Florianópolis - SC, e atendo online adolescentes e
+                adultos, com o objetivo de ajudar você a compreender suas
+                emoções e vivências de maneira clara e significativa.
               </p>
               <p className="text-gray-600">
                 Atendo com exclusividade e dedicação cada caso, com o
@@ -252,7 +254,7 @@ export default function Component() {
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">Contato</h2>
-          <p className="text-gray-600 mb-6">Tel: (XX) XXXX-XXXX</p>
+          <p className="text-gray-600 mb-6">Tel: (48) 98864-6542</p>
           <p className="text-gray-600 mb-8">email@exemplo.com</p>
           <Link
             href="https://wa.me/YOUR_PHONE_NUMBER"

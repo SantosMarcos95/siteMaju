@@ -1,10 +1,12 @@
 Maria Julia Ramos - Psicóloga
 
-Sobre Mim
-Sou Maria Julia Ramos, psicóloga graduada pela Universidade Estácio de Santa Catarina. Resido em Florianópolis - SC, e atendo online adolescentes e adultos, com o objetivo de ajudar você a compreender suas emoções e vivências de maneira clara e significativa.
+Sou Mari
+Sobre Miria Julia Ramos, psicóloga graduada pela Universidade Estácio de Santa Catarina. Resido em Florianópolis - SC, e atendo online adolescentes e adultos, com o objetivo de ajudar você a compreender suas emoções e vivências de maneira clara e significativa.
 
 Demandas Atendidas
 Atendo uma variedade de questões, incluindo:
+
+(cards)
 
 - Angústia
 - Ansiedade
@@ -39,9 +41,12 @@ Benefícios da Terapia Online
 - Continuidade do Tratamento: Facilita a manutenção da terapia em caso de viagens ou mudanças de residência
 - Eliminação de deslocamentos: Contribui para uma experiência mais tranquila e prática.
 
+(apos clicar no botao)
 Primeiras sessões
 Sinta-se à vontade para se expressar da maneira que preferir. Este é o seu espaço.
+
 O objetivo é compreender quem você é e qual é a sua queixa inicial. Não se preocupe se não tiver todas as respostas; estou aqui para ajudar você a encontrá-las.
+
 Em seguida, faremos o alinhamento das questões administrativas, como o valor das sessões, horários e frequência da terapia.
 
 Se você busca um ambiente acolhedor para se expressar e refletir sobre suas experiências, estou aqui para ajudar. Entre em contato para agendar uma sessão.
