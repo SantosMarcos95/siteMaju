@@ -1,6 +1,6 @@
 Maria Julia Ramos - Psicóloga
 
-Sou Mari
+Sou Maria
 Sobre Miria Julia Ramos, psicóloga graduada pela Universidade Estácio de Santa Catarina. Resido em Florianópolis - SC, e atendo online adolescentes e adultos, com o objetivo de ajudar você a compreender suas emoções e vivências de maneira clara e significativa.
 
 Demandas Atendidas
@@ -21,7 +21,6 @@ Atendo uma variedade de questões, incluindo:
 - Traumas
 
 Abordagem Psicanalítica
-Minha prática é fundamentada na psicanálise, que busca entender os aspectos do inconsciente e como eles influenciam nossos comportamentos e emoções. Acredito que cada indivíduo é único, e o autoconhecimento é essencial para a transformação pessoal.
 
 "O inconsciente é um texto que escrevemos, mas não o sabemos ler. Uma análise é um lugar onde aprendemos a ler nossa própria língua - não toda."
 Ana Suy
